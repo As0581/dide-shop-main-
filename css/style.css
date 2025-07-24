@@ -407,7 +407,7 @@ form{
 .form-link{
     color:#424347;
     position: relative;
-    left:-183px;
+    left:-123px;
     top:30px
 }
 
@@ -599,11 +599,20 @@ form{
         flex-wrap: wrap;
     }
 }
+@media(max-width:560px){
+    .submit__btn{
+        font-size: 16px;
+        padding:16px 50px;
+    }
+}
 @media (max-width:510px) {
     .header-inner{
         /* display: flex */
         flex-direction: column;
         gap:30px
+    }
+    form{
+        padding:0 30px
     }
 }
 @media(max-width:460px){
@@ -638,7 +647,9 @@ form{
     }
 }
 @media (max-width:370px) {
-   
+   .input-box{
+        font-size: 14px;
+    }
     .review-container{
         padding:0;
     }
@@ -650,6 +661,12 @@ form{
     }
      .addvert-title{
         font-size: 30px;
+    }
+}
+@media (max-width:348px) {
+    .form-link{
+        left:90px;
+        top:-50px;
     }
 }
 @media (max-width:330px) {
