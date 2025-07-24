@@ -1,0 +1,20 @@
+[
+    {
+        "id":"1004",
+        "image":"img/little-test.jpg",
+        "name":"Корзина для одежды 1",
+        "price":"1000"
+    },
+    {
+        "id":"1005",
+        "image":"img/little-test.jpg",
+        "name":"Корзина для растений 2",
+        "price":"1300"
+    },
+    {
+        "id":"1006",
+        "image":"img/little-test.jpg",
+        "name":"Корзина для одежды 3",
+        "price":"1200"
+    }
+]

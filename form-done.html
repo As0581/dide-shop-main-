@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Заказать</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="container">
+                <div class="header-inner">
+                    <img src="img/GREENMIND.svg" alt="" class="logo">
+                    <nav class="menu">
+                        <ul class="menu-list">
+                            <li class="menu-list__item"><a href="index.html">Главная</a></li>
+                            <li class="menu-list__item"><a href="catalog.html"> Каталог</a></li>
+                            <li class="menu-list__item"><a href="redirect.html">Заказать</a> </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header> 
+                                <h1 class="form-title">Заказать</h1>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="228bd0af-baf7-4fe2-a1d1-c6734301a305">
+            <div class="input-box">
+                <span>Ваше имя:</span>
+                <input type="text" name="name" class="box" id="" placeholder="Иван" required autocomplete="off">
+            </div>
+            
+            <div class="input-box">
+                <span>Ваше фамилия:</span>
+                <input type="text" name="name" class="box" id="" placeholder="Иванов" required autocomplete="off">
+            </div>
+            
+            <div class="input-box">
+                <span>Ваш email:</span>
+                <input type="email" name="email" class="box" id="" placeholder="ivan@gmail.com" required autocomplete="off">
+            </div>
+            
+            <div class="input-box">
+                <span>Ваш номер телефона:</span>
+                <input type="number" name="number" class="box" id="" placeholder="89998887766" required autocomplete="off">
+            </div>
+            
+            <div class="input-box">
+                <span>ID корзинки (номер рядом с названием или картинкой):</span>
+                <input type="number" name="ID" class="box" id="" placeholder="1234" required autocomplete="off">  
+            </div>
+            
+
+            <input value="Отправить" type="submit" class="submit__btn">
+        </form>
+        <div class="form__goback">
+            <img src="img/arrow.png" alt="" class="form-img">
+            <a href="index.html" class="form-link">Вернуться на Главную</a>
+        </div>
+        
+    </div>
+    <footer class="footer">
+            <div class="container">
+                <div class="footer-inner">
+                    <div class="footer-left">
+                        <img src="img/GREENMIND.svg" alt="" class="footer-logo logo">
+                        <p class="footer-text ffr">Мы поможем найти вам полезную корзинку</p>
+                        <h2 class="footer-subtitle">Наши соц сети</h2>
+                        <ul class="footer-left__list">
+                            <li class="footer-left__item">
+                                <img src="img/icons8-whatsapp-50.png" alt="" class="footer-left__img">
+                            </li>
+                            <li class="footer-left__item">
+                                <img src="img/icons8-instagram-50.png" alt="" class="footer-left__img">
+                            </li>
+                            <li class="footer-left__item">
+                                <img src="img/icons8-телеграм-50.png" alt="" class="footer-left__img">
+                            </li>
+                            
+                        </ul>
+                        <h3 class="footer-subtitle">Наш номер</h3>
+                        <a href="" class="tel">+7(909)481-99-82</a>
+                    </div>
+                    <div class="footer-right">
+                        <ul class="footer-right__list">
+                            <li class="footer-right__item footer-list__title">Информация</li>
+                            <li class="footer-right__item ffr">Заказать</li>
+                            <li class="footer-right__item ffr">Каталог</li>
+                            <li class="footer-right__item ffr">Блог</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
