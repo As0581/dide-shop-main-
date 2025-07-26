@@ -523,6 +523,11 @@ form{
     background-color: #73a1a1;
     border-radius: 4px;
 }
+.item-size{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color:#5c7a63
+}
 
 @media (max-width:1010px) {
     .review-list{

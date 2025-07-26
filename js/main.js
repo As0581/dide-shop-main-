@@ -16,6 +16,7 @@ function displayProduct(product,containerName) {
                 <img src="${product.image}" alt="" class="item-img">
                 <div class="item-right">
                     <h2 class="item-title">${product.name}</h2>
+                    <h2 class="item-size">${product.size}</h2>
                     <span class="best-item__id ffr">ID:${product.id}</span> 
                     <h3 class="item-subtitle">Описание</h3>
                     <p class="item-about">Откройте для себя уникальную красоту ручной работы — плетеную корзинку из бумажной лозы, созданную с любовью бабушкой. Легкая, прочная и экологичная, она идеально подойдет для хранения фруктов, овощей или как стильный декор. Добавьте уют и тепло в ваш дом с этой уникальной корзинкой!</p>
