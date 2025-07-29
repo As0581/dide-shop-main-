@@ -17,6 +17,22 @@ header{
     margin-bottom: 60px;
 }
 
+.logo{
+    max-width:60px
+}
+
+.logo-link{
+    display: flex; 
+    align-items: center;
+    gap:10px
+}
+.logo-link p{
+
+    font-size: 28px;
+    font-weight: 500;
+    color:#735132;
+}
+
 .header-inner{
     display: flex;
     /* gap:190px; */
@@ -97,7 +113,7 @@ padding:50px;
 }
 
 .best-img{
-    max-height:260px;
+    height:320px;
     width:260px
 }
 
@@ -136,8 +152,8 @@ padding:50px;
     display: flex;
     gap:50px;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
 }
 
 .best-link{
@@ -596,6 +612,14 @@ form{
     .item{
         flex-direction: column;
         align-items: center;
+    }
+    .logo-link p{
+        display: none;
+    }
+}
+@media (max-width:625px) {
+    .best-list{
+        justify-content: center;
     }
 }
 
